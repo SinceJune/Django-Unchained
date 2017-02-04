@@ -1,1 +1,6 @@
 .idea/
+.gitignore
+.idea/workspace.xml
+config/__pycache__/
+node_modules/
+static/js/bundle.js

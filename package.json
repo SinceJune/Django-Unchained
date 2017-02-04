@@ -1,0 +1,30 @@
+{
+  "name": "django-unchained",
+  "version": "1.0.0",
+  "description": "",
+  "main": "static/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/webpack/bin/webpack.js -d",
+    "watch": "node_modules/webpack/bin/webpack.js -d watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SinceJune/Django-Unchained.git"
+  },
+  "keywords": [
+    "django"
+  ],
+  "author": "June",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SinceJune/Django-Unchained/issues"
+  },
+  "homepage": "https://github.com/SinceJune/Django-Unchained#readme",
+  "dependencies": {
+    "moment": "^2.17.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
